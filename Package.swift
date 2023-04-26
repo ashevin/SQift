@@ -11,10 +11,12 @@ let package = Package(
     targets: [
         .target(
             name: "SQift",
+            path: "Source"
         ),
         .testTarget(
             name: "SQiftTests",
             dependencies: ["SQift"],
+            path: "Tests"
         )
     ]
 )
